@@ -33,11 +33,14 @@ Permite a un profesor registrar una nueva tutoría indicando el tema, la fecha, 
 - Todos los campos (tema, fecha, hora de inicio y cupo máximo) son obligatorios.
 
 #### Salidas
-Se crea un nuevo registro de tutoría en el sistema con un identificador único, quedando disponible para que los estudiantes puedan consultarla e inscribirse en ella. El profesor recibe la confirmación del registro exitoso.
+
 | Salida | Tipo de dato | Descripción |
 |---|---|---|
+|idTutoria|String|Identificador único asignado a la tutoría creada|
+|mensaje|String|	Mensaje de confirmación indicando que la tutoría fue creada correctamente, o mensaje de error indicando el motivo del rechazo|
 
 #### Resultado esperado
+Se crea un nuevo registro de tutoría en el sistema con un identificador único, quedando disponible para que los estudiantes puedan consultarla e inscribirse en ella. El profesor recibe la confirmación del registro exitoso.
 
 
 ### RF-02 - [Nombre del requerimiento]
