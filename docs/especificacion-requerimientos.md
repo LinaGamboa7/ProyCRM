@@ -62,9 +62,10 @@ Se crea un nuevo registro de tutoría en el sistema con un identificador único,
 #### Resultado esperado
 
 
-### RF-03 - [Nombre del requerimiento]
+### RF-03 - [inscribir tutoria]
 
 #### Resumen
+Permite a un estudiante inscribirse en una tutoría de su interés indicando su código estudiantil y el identificador de la tutoría, siempre que cumpla con las condiciones necesarias para completar la inscripción.
 
 #### Entradas
 
